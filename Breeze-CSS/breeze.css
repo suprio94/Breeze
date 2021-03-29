@@ -13,7 +13,7 @@
 }
 
 
-
+/* Avatar */
 
 
 
@@ -36,6 +36,8 @@
   height: 80px;
   border-radius: 50%;
 }
+
+/* Alert */
 
 .alert{
    
@@ -112,20 +114,7 @@
 
 
 
-.badge-avatar {
-  font-size: 0.6em;
-  position: relative;
-  bottom: 58px;
-  left: 35px;
-  font-weight: bold;
-  background-color: red;
-  width: 14px;
-  height: 14px;
-  color: white;
-  text-align: center;
-  font-weight: bold;
-  border-radius: 50%;
-}
+/* Button */
 
 .btn{
   font-weight: 600;
@@ -199,16 +188,7 @@ button a{
   background-color: #721c24;
 }
 
-.btn-icon{
-  background-color: var(--active-color);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.btn-icon svg{
-  height: max-content;
-} 
+/* Card */
 
 
 .card {
@@ -246,54 +226,9 @@ button a{
   opacity: 0.7;
 }
 
-/* .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-.card-text{
-  padding: 2px 16px; 
-} */
 
-.card-badge {
-  position: relative;
-  bottom: 305px;
-  left: 185px;
-  background-color: red;
-  height: 22px;
-  width: 22px;
-  border-radius: 50%;
-  text-align: center;
-  color: white;
-  font-weight: bold;
-}
 
-.title-product {
-  margin-top: 0.5rem;
-  font-size: 0.9rem;
-  font-weight: bold;
-}
-
-.price-product {
-  margin-top: 0.5rem;
-  font-weight: bold;
-}
-
-.card-text-overlay {
-  font-weight: bold;
-  width: fit-content;
-  background-color: red;
-  padding: 0.1rem 0.3rem;
-  border-radius: 5px;
-  color: white;
-  font-size: 0.9rem;
-  position: relative;
-  bottom: 280px;
-  right: 5px;
-}
-
-.card-horizontal {
-  width: 300px;
-  height: 200px;
-}
+/* Image */
 
 .img-responsive {
   display: block;
@@ -314,6 +249,7 @@ img {
   border-radius: 20px;
 }
 
+/* Textbox */
 .textbox {
   width: 250px;
   padding: 0.5rem;
@@ -326,47 +262,7 @@ img {
   outline: none;
 }
 
-.list-spaced {
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  padding-inline-start: 0;
-}
-
-.list-spaced > li {
-  margin: 0 1rem;
-}
-
-.list-stacked {
-  list-style: none;
-  padding-inline-start: 0;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 1rem;
-}
-
-.list-stacked > li {
-  margin-bottom: 0.5rem;
-}
-
-.nav-desktop {
-  width: 100%;
-}
-
-.nav-list {
-  justify-content: space-around;
-}
-
-.nav-item {
-  border-right: 1px solid black;
-  width: 100%;
-  text-align: center;
-}
-
-.nav-item:last-child {
-  border: none;
-}
-
+/* Modal */
 .modal-bg {
   width: 100vw;
   height: 100vh;
@@ -420,6 +316,7 @@ img {
   cursor: pointer;
 }
 
+/* Grid */
 .grid-two {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -431,6 +328,7 @@ img {
   grid-column-gap: 1rem;
 }
 
+/* Utility-Text */
 .heading-1 {
   font-weight: bold;
   font-size: 1.5rem;
@@ -472,6 +370,8 @@ img {
   padding: 0.5rem;
   margin : auto;
 }
+
+/* Toast */
 
 #toast1 {
   border: 1px solid maroon;
